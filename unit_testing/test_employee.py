@@ -1,5 +1,7 @@
 import unittest
-from unittest.mock import patch
+from unittest.mock import patch  
+# patch can be either used as a decorator or context manager, it will alllow us to mock an object during 
+# the test and then that object is automatically restored after the test is run
 from employee import Employee
 
 
