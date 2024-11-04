@@ -32,7 +32,7 @@ if __name__ == '__main__':
     while True:
         find_job()
         time_wait = 2
-        print(f'Waiting {time_wait} minutes...')
-        time.sleep(time_wait*60)
+        # print(f'Waiting {time_wait} minutes...')
+        time.sleep(time_wait*5)
 
 
